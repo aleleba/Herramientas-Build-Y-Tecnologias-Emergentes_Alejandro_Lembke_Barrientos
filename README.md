@@ -9,11 +9,11 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 Mira **Deployment** para conocer como desplegar el proyecto.
 
 
-### Pre-requisitos ğŸ“‹
+### Pre-requisitos
 
 _Para el proyecto nececitarás tener instalado NPM, Node.js y si no cuentas con una computadora Windows tendtrás que instalar RethinkDB_
 
-### Instalación ğŸ”§
+### Instalación
 
 _Para iniciar a utilizar la base de datos de RethinkDB corre el archivo localizado en:_
 
@@ -69,7 +69,7 @@ _Instala las dependencias de react-app abriendo la consola, ingresando al direct
 npm install
 ```
 
-## Deployment ğŸ“¦
+## Deployment
 
 _Para Inicializar las aplicaciones hay que abrir la base de datos y 3 consolas distintas_
 
@@ -109,7 +109,7 @@ _Datos para ingresar a usar las aplicación_
 Email: admin@admin.com; Contraseña: admin
 ```
 
-## Construido con ğŸ› ï¸
+## Construido con:
 
 _Herramientas Utilizadas_
 
@@ -119,14 +119,14 @@ _Herramientas Utilizadas_
 * [Bootstrap](https://getbootstrap.com/) - FrameworkFrontEnd Responsive Bootstrap
 * [Node.js](https://nodejs.org/es/) - Servidor
 
-## Autores âœ’ï¸
+## Autores
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Alejandro Lembke** - *Desarrollo del Proyecto* - [aleleba](https://github.com/aleleba)
 
-## Gracias ğŸ
+## Gracias
 
-* Comenta a otros sobre este proyecto ğŸ“¢
-* Invitame una cerveza ğŸº 
+* Comenta a otros sobre este proyecto
+* Invitame una cerveza 
 * Muchas Gracias por ver el proyecto.
