@@ -1,0 +1,28 @@
+<div>
+	<div *ngFor="let item of productos" class="modal fade" id="Modal{{item.producto}}" tabIndex="-1" role="dialog" attr.aria-labelledby="Modal{{item.producto}}Label" aria-hidden="true"> <!-- Modal -->
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h2 class="modal-title" id="Modal{{item.producto}}Label">{{item.producto}}</h2>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+	  		<div class="row">
+				<div class="col-12 col-md-6">
+					<img class="img-responsive col-12" src="http://localhost/{{item.imgUrl}}" alt={{item.imgUrl}} />
+				</div>
+				<div class="col-12 col-md-6">
+					<p><strong>Precio:</strong> Q.{{item.precio}}</p>
+					<p><strong>Unidades Disponibles:</strong> {{item.unidadesDisponibles}}</p>
+				</div>
+			</div>
+		  </div>
+		  <div class="modal-footer d-flex justify-content-start">
+			<button type="button" class="btn btn-light" data-dismiss="modal">Atras</button>
+		  </div>
+		</div>
+	  </div>
+	</div>	
+</div>

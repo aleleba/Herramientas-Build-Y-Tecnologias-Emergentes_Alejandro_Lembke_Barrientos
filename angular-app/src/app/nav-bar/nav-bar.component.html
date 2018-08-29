@@ -1,0 +1,20 @@
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="">La Bodega</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center justify-content-md-end" id="navbarNavAltMarkup">
+	<div class="navbar-nav">
+	  <a class="nav-item nav-link text-center text-md-right" routerLink="/productos" routerLinkActive="active"><fa-icon [icon]="faTh"></fa-icon></a>
+	  <a class="nav-item nav-link text-center text-md-right" routerLink="/carrito" routerLinkActive="active">
+	  	<fa-icon [icon]="faShoppingCart"></fa-icon>
+	  	<div id="infoCarrito">
+			<p id="CantTxt"></p>
+		</div>
+	  </a>
+	  <a class="nav-item nav-link text-center text-md-right" href=""><fa-icon [icon]="faInbox"></fa-icon></a>
+	  <a class="nav-item nav-link text-center text-md-right" (click)="OnLogOut()" routerLink="/"><fa-icon [icon]="faSignOutAlt"></fa-icon></a>
+	</div>
+  </div>
+</nav>

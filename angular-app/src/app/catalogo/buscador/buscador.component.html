@@ -1,0 +1,13 @@
+<form>
+	<div class="form-group">
+		<label htmlFor="buscador">¿Qué estás Buscando?</label>
+		<input
+			type="text" 
+			class="form-control" 
+			id="buscador" 
+			placeholder="Buscar Producto"
+			[ngModelOptions]="{standalone: true}"
+			[(ngModel)]="productoFilter.producto"
+		/>
+	</div>
+</form>

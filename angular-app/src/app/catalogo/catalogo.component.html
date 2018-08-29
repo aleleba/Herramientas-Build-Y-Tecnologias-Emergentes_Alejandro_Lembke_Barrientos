@@ -1,0 +1,10 @@
+<div id="catalogoContainer" class="container-fluid">
+	<div class="row">
+		<div class="col-12 col-sm-6">
+			<h1 class="text-left">Catálogo de Productos</h1>
+		</div>
+		<buscador class="col-12 col-sm-6" [productos]="productos" [productoFilter]="productoFilter" ></buscador>
+	</div>
+	<producto [productos]="productos" [productoFilter]="productoFilter"></producto>
+	<modal [productos]="productos"></modal>
+</div>

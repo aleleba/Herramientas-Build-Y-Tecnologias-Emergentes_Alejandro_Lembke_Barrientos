@@ -1,0 +1,21 @@
+<div id="producto-container" class="row">
+	<div *ngFor="let item of productos | filterBy: productoFilter" class="card-container col-sm-6 col-lg-4 col-xl-3">
+		<div class="card">
+		  <img src="http://localhost/{{item.imgUrl}}" alt={{item.imgUrl}} class="card-img-top">
+		  <div class="card-body">
+			<h5 class="card-title text-left">{{item.producto}}</h5>
+			<p class="card-text">Precio: Q. {{item.precio}}</p>
+			<p class="card-text">Unidades Disponibles: {{item.unidadesDisponibles}}</p>
+			<form class="row">
+					<div class="col-6 d-flex justify-content-start">
+						<button type="button" class="btn btn-primary" data-toggle="modal" attr.data-target="#Modal{{item.producto}}" >Ver Mas</button>
+					</div>
+					<div class="d-flex col-6 justify-content-end">
+						<button class="btn btn-warning mr-2" (click)="anadirCarrito($event)" attr.data-carrito="{'id': {{item.id}}, 'producto': '{{item.producto}}', 'precio': {{item.precio}}, 'unidadesDisponibles': {{item.unidadesDisponibles}}, 'imgUrl': '{{item.imgUrl}}'}">Añadir</button>
+						<input type="number" min="1" value="1" />
+					</div>
+			</form>
+		  </div>
+		</div>
+	</div>
+</div>

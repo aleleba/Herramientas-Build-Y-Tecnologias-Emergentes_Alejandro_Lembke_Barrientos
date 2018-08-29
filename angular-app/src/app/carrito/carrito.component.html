@@ -1,0 +1,31 @@
+<div id="carritoContainer">
+	<nav-bar></nav-bar>
+	<div id="carritoSubContainer" class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-sm-6">
+				<h1 class="text-left">Carrito de Compras</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div id="carritoProductoContainer" class="col-12 col-sm-6">
+							<div *ngFor="let item of carrito" class="row">
+								<div class="col-12 col-sm-6">
+									<img class="img-responsive col-12" src="http://localhost/{{item.imgUrl}}" alt={{item.imgUrl}}/>
+									<p class="col-12"><strong>Subtotal:</strong> Q. {{item.precio * item.productoCant}}</p>
+								</div>
+								<div class="col-12 col-sm-6">
+									<h5 class="col-12">{{item.producto}}</h5>
+									<p class="col-12"><strong>Unidades:</strong> {{item.productoCant}}</p>
+								</div>
+							</div>
+			</div>
+			<div class="col-12 col-sm-6">
+				<h2>Total: Q.{{total}}</h2>
+				<div class="btn-group" role="group" aria-label="Basic example">
+				  <a routerLink="/productos" (click)="CancelarCarrito($event)"><button id="botonCancelar" type="button" class="btn btn-light">Cancelar</button></a>
+				  <a routerLink="/productos" (click)="PagarCarrito($event)"><button id="botonPagar" type="button" class="btn btn-light">Pagar</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
