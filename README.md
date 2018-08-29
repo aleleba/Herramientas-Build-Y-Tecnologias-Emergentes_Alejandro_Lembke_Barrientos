@@ -106,7 +106,7 @@ _Ahora ya puedes usar las aplicaciones, para ingresar a la base de datos ingresa
 _Datos para ingresar a usar las aplicación_
 
 ```
-Email: admin@admin.com; Contraseña: admin
+Email: admin@admin.com Contraseña: admin
 ```
 
 ## Construido con:
