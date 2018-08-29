@@ -103,7 +103,7 @@ npm start
 ```
 _Ahora ya puedes usar las aplicaciones, para ingresar a la base de datos ingresa a: localhost:8080; para ingresar a api-app ingresa a: localhost:80; para ingresar a angular-app ingresa a: localhost:4200; para ingresar a react-app ingresa a: localhost:3000;_
 
-_Datos para ingresar a usar las aplicación_
+_Datos para ingresar a las aplicaciones_
 
 ```
 Email: admin@admin.com Contraseña: admin
