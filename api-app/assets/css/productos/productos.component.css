@@ -1,0 +1,22 @@
+/* Sass Document */
+/*Productos */
+/*Tipografias */
+@font-face {
+  font-family: "JosefinSans-Regular";
+  src: url(../../fonts/josefin-sans/JosefinSans-Regular.eot), url(../../fonts/josefin-sans/JosefinSans-Regular.otf), url(../../fonts/josefin-sans/JosefinSans-Regular.ttf); }
+#productosContainer {
+  background-image: url("../../img/fondos/main-fondo.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: right;
+  padding-left: 100px;
+  padding-right: 100px; }
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  #productosContainer {
+    padding-left: 0px;
+    padding-right: 0px; } }
+@media only screen and (max-width: 500px) {
+  #productosContainer {
+    padding-left: 0px;
+    padding-right: 0px; } }

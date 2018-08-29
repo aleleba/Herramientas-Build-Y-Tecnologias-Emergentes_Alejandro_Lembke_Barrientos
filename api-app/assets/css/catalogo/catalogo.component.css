@@ -1,0 +1,17 @@
+/* Sass Document */
+/*Catalogo */
+/*Tipografias */
+@font-face {
+  font-family: "JosefinSans-Regular";
+  src: url(../../fonts/josefin-sans/JosefinSans-Regular.eot), url(../../fonts/josefin-sans/JosefinSans-Regular.otf), url(../../fonts/josefin-sans/JosefinSans-Regular.ttf); }
+#catalogoContainer {
+  margin-top: 25px;
+  height: 88%;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #FFFFFF !important; }
+  #catalogoContainer .row {
+    padding: 15px;
+    padding-top: 25px; }
+    #catalogoContainer .row h1 {
+      font-family: "JosefinSans-Regular";
+      font-size: 30px; }

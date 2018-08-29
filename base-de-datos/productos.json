@@ -1,0 +1,149 @@
+[
+	{
+		"id": 1,
+		"imgUrl": "assets/img/aguacate.jpg",
+		"precio": "8.00",
+		"producto": "Aguacate",
+		"unidadesDisponibles": "50"
+	},
+	{
+		"id": 2,
+		"imgUrl": "assets/img/ajo.jpg",
+		"precio": "3.00",
+		"producto": "Ajo",
+		"unidadesDisponibles": "50"
+	},
+	{
+		"id": 3,
+		"imgUrl": "assets/img/almendras.jpg",
+		"precio": "2.00",
+		"producto": "Almendras",
+		"unidadesDisponibles": "100"
+	},
+	{
+		"id": 4,
+		"imgUrl": "assets/img/arandanos.jpg",
+		"precio": "3.00",
+		"producto": "Arandanos",
+		"unidadesDisponibles": "100"
+	},
+	{
+		"id": 5,
+		"imgUrl": "assets/img/brocoli.png",
+		"precio": "4.00",
+		"producto": "Brocoli",
+		"unidadesDisponibles": "50"
+	},
+	{
+		"id": 6,
+		"imgUrl": "assets/img/calabaza.jpg",
+		"precio": "9.00",
+		"producto": "Calabaza",
+		"unidadesDisponibles": "30"
+	},
+	{
+		"id": 7,
+		"imgUrl": "assets/img/canela.jpg",
+		"precio": "5.00",
+		"producto": "Canela",
+		"unidadesDisponibles": "80"
+	},
+	{
+		"id": 8,
+		"imgUrl": "assets/img/cebolla.jpg",
+		"precio": "6.00",
+		"producto": "Cebolla",
+		"unidadesDisponibles": "90"
+	},
+	{
+		"id": 9,
+		"imgUrl": "assets/img/fresa.jpg",
+		"precio": "3.00",
+		"producto": "Fresa",
+		"unidadesDisponibles": "150"
+	},
+	{
+		"id": 10,
+		"imgUrl": "assets/img/kiwi.jpg",
+		"precio": "4.00",
+		"producto": "Kiwi",
+		"unidadesDisponibles": "120"
+	},
+	{
+		"id": 11,
+		"imgUrl": "assets/img/limon.jpg",
+		"precio": "4.00",
+		"producto": "Limón",
+		"unidadesDisponibles": "170"
+	},
+	{
+		"id": 12,
+		"imgUrl": "assets/img/lychee.jpg",
+		"precio": "8.00",
+		"producto": "Lychee",
+		"unidadesDisponibles": "80"
+	},
+	{
+		"id": 13,
+		"imgUrl": "assets/img/maiz.jpg",
+		"precio": "5.00",
+		"producto": "Maíz",
+		"unidadesDisponibles": "80"
+	},
+	{
+		"id": 14,
+		"imgUrl": "assets/img/manzana.jpg",
+		"precio": "4.00",
+		"producto": "Manzana",
+		"unidadesDisponibles": "90"
+	},
+	{
+		"id": 15,
+		"imgUrl": "assets/img/naranja.jpg",
+		"precio": "4.00",
+		"producto": "Naranja",
+		"unidadesDisponibles": "100"
+	},
+	{
+		"id": 16,
+		"imgUrl": "assets/img/papa.jpg",
+		"precio": "6.00",
+		"producto": "Papa",
+		"unidadesDisponibles": "160"
+	},
+	{
+		"id": 17,
+		"imgUrl": "assets/img/pasta.jpg",
+		"precio": "8.00",
+		"producto": "Pasta",
+		"unidadesDisponibles": "70"
+	},
+	{
+		"id": 18,
+		"imgUrl": "assets/img/pimienta.jpg",
+		"precio": "6.00",
+		"producto": "Pimienta",
+		"unidadesDisponibles": "150"
+	},
+	{
+		"id": 19,
+		"imgUrl": "assets/img/repollo.jpg",
+		"precio": "8.00",
+		"producto": "Repollo",
+		"unidadesDisponibles": "120"
+	},
+	{
+		"id": 20,
+		"imgUrl": "assets/img/tomate.jpg",
+		"precio": "3.00",
+		"producto": "Tomate",
+		"unidadesDisponibles": "150"
+	},
+	{
+		"id": 21,
+		"imgUrl": "assets/img/zanahoria.jpg",
+		"precio": "5.00",
+		"producto": "Zanahoria",
+		"unidadesDisponibles": "70"
+	}
+]

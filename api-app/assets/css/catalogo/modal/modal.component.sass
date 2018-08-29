@@ -1,0 +1,70 @@
+/* Sass Document */
+/*Modal*/
+
+/*Tipografias*/
+@font-face
+	font-family: "JosefinSans-Regular"
+	src: url(../../../fonts/josefin-sans/JosefinSans-Regular.eot), url(../../../fonts/josefin-sans/JosefinSans-Regular.otf), url(../../../fonts/josefin-sans/JosefinSans-Regular.ttf)
+
+//Colores
+$Blanco: #FFFFFF
+
+//Resoluciones
+$Res1: 500px
+$Res2: 501px
+$Res3: 767px
+$Res4: 768px
+$Res5: 991px
+$Res6: 992px
+$Res7: 1199px
+$Res8: 1200px
+
+//Version Telefono base
+@mixin telefono
+	@media only screen and (max-width: $Res1) 
+		@content
+
+//Version Tablet1 base
+@mixin tablet1
+	@media only screen and (min-width: $Res2) and (max-width: $Res3)
+		@content
+
+//Version Tablet2 base
+@mixin tablet2
+	@media only screen and (min-width: $Res4) and (max-width: $Res5)
+		@content
+
+//Version PC1 base
+@mixin pc1
+	@media only screen and (min-width: $Res6) and (max-width: $Res7)
+		@content
+
+//Version PC2 base
+@mixin pc2
+	@media only screen and (min-width: $Res8)
+		@content
+
+//General
+.modal
+	font-family: "JosefinSans-Regular"
+
+//Version PC2
+@include pc2
+		
+//Version PC1 
+@include pc1
+	
+//Version Tablet2
+@include tablet2
+		
+//Version Tablet1
+@include tablet1
+				
+//Version telefono
+@include telefono
+
+
+
+
+
+

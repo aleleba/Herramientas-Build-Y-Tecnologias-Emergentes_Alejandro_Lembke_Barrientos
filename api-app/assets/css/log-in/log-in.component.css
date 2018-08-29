@@ -1,0 +1,25 @@
+/* Sass Document */
+/*LogIn */
+/*Tipografias */
+@font-face {
+  font-family: "JosefinSans-Regular";
+  src: url(../../fonts/josefin-sans/JosefinSans-Regular.eot), url(../../fonts/josefin-sans/JosefinSans-Regular.otf), url(../../fonts/josefin-sans/JosefinSans-Regular.ttf); }
+#error {
+  display: none; }
+
+.card-header {
+  border: none !important; }
+
+#formContainer {
+  height: 100%; }
+
+#logIn-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/fondos/login-fondo.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: right; }
+  #logIn-container .card {
+    background-color: transparent !important;
+    color: #FFFFFF;
+    font-family: "JosefinSans-Regular";
+    border: none !important; }

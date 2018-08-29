@@ -1,0 +1,6 @@
+#Ignorar Node Modules Api App
+api-app/node_modules/*
+#Ignorar Node Modules Angular App
+angular-app/node_modules/*
+#Ignorar Node Modules React App
+react-app/node_modules/*

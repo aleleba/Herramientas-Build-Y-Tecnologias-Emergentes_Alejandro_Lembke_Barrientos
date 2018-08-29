@@ -1,0 +1,34 @@
+/* Sass Document */
+/*Catalogo */
+/*Tipografias */
+@font-face {
+  font-family: "JosefinSans-Regular";
+  src: url(../../../fonts/josefin-sans/JosefinSans-Regular.eot), url(../../../fonts/josefin-sans/JosefinSans-Regular.otf), url(../../../fonts/josefin-sans/JosefinSans-Regular.ttf); }
+.card-container {
+  margin-bottom: 15px; }
+
+form {
+  padding: 0px !important; }
+
+#producto-container {
+  height: 80%;
+  overflow: scroll;
+  padding: 0px !important;
+  margin: 0px !important; }
+
+.row {
+  font-family: "JosefinSans-Regular"; }
+  .row h5,
+  .row p {
+    color: #000000; }
+  .row .card {
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
+    border-radius: 0.25rem !important; }
+  .row .btn-warning {
+    color: #FFFFFF; }
+  .row input[type="number"] {
+    max-width: 30px; }
+
+@media only screen and (max-width: 500px) {
+  #producto-container {
+    height: 75%; } }
