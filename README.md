@@ -11,7 +11,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos
 
-_Para el proyecto nececitarás tener instalado NPM, Node.js y si no cuentas con una computadora Windows tendtrás que instalar RethinkDB_
+_Para el proyecto nececitarás tener instalado NPM, Node.js y si no cuentas con una computadora Windows tendrás que instalar RethinkDB_
 
 ### Instalación
 
