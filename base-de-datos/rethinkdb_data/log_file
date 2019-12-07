@@ -667,3 +667,21 @@
 2018-08-28T20:33:19.608177200 1.403260s info: Table 496ae0e1-64e0-457f-995f-f86b1aae39fe: This server is Raft leader for term 33. Latest log index is 95.
 2018-08-28T20:33:19.957776600 1.752154s info: Table 51bd6d33-19ba-423c-892a-9a902089f258: Starting a new Raft election for term 15.
 2018-08-28T20:33:19.964779400 1.759071s info: Table 51bd6d33-19ba-423c-892a-9a902089f258: This server is Raft leader for term 15. Latest log index is 41.
+2019-12-07T03:01:39.634581900 0.023734s notice: In recursion: removing file 'E:\\Proyectos de Desarrollo Libre\\Herramientas-Build-Y-Tecnologias-Emergentes_Alejandro_Lembke_Barrientos\\base-de-datos\\rethinkdb_data\\tmp'
+2019-12-07T03:01:39.636104600 0.025446s warn: Trying to delete non-existent file 'E:\\Proyectos de Desarrollo Libre\\Herramientas-Build-Y-Tecnologias-Emergentes_Alejandro_Lembke_Barrientos\\base-de-datos\\rethinkdb_data\\tmp'
+2019-12-07T03:01:39.642049200 0.031189s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-12-07T03:01:39.642049201 0.031305s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2019-12-07T03:01:39.642049202 0.031415s notice: Loading data from directory E:\\Proyectos de Desarrollo Libre\\Herramientas-Build-Y-Tecnologias-Emergentes_Alejandro_Lembke_Barrientos\\base-de-datos\\rethinkdb_data
+2019-12-07T03:01:39.740429600 0.129942s info: Automatically using cache size of 5969 MB
+2019-12-07T03:01:39.746432600 0.136102s notice: Listening for intracluster connections on port 29015
+2019-12-07T03:01:39.803467400 0.192321s notice: Listening for client driver connections on port 28015
+2019-12-07T03:01:39.803467401 0.192630s notice: Listening for administrative HTTP connections on port 8080
+2019-12-07T03:01:39.803467402 0.192639s notice: Listening on cluster address: 127.0.0.1
+2019-12-07T03:01:39.803467403 0.192641s notice: Listening on driver address: 127.0.0.1
+2019-12-07T03:01:39.803467404 0.192642s notice: Listening on http address: 127.0.0.1
+2019-12-07T03:01:39.803467405 0.192643s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-12-07T03:01:39.803467406 0.192644s notice: Server ready, "PC_Ale_0o5" a866c4e3-fd5b-48cc-a218-2e2d4cc9e6e8
+2019-12-07T03:01:40.796446600 1.185525s info: Table 496ae0e1-64e0-457f-995f-f86b1aae39fe: Starting a new Raft election for term 34.
+2019-12-07T03:01:40.872429400 1.261463s info: Table 51bd6d33-19ba-423c-892a-9a902089f258: Starting a new Raft election for term 16.
+2019-12-07T03:01:40.885428200 1.274772s info: Table 496ae0e1-64e0-457f-995f-f86b1aae39fe: This server is Raft leader for term 34. Latest log index is 98.
+2019-12-07T03:01:40.957447800 1.346548s info: Table 51bd6d33-19ba-423c-892a-9a902089f258: This server is Raft leader for term 16. Latest log index is 44.
