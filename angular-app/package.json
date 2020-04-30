@@ -26,7 +26,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.2.0",
     "bootstrap": "^4.4.1",
     "core-js": "^2.5.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-filter-pipe": "^2.1.0",
     "popper.js": "^1.14.4",
     "rethinkdb": "^2.3.3",
